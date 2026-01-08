@@ -1,0 +1,18 @@
+# --- Security: Block Keys and Secrets ---
+*.pem
+*.key
+.env
+*.env
+
+# --- Terraform: Block State Files ---
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# --- Python: Block Cache ---
+__pycache__/
+*.pyc
+
+# --- System ---
+.DS_Store
