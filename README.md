@@ -12,7 +12,7 @@ This project is a fully automated, cloud-native data pipeline designed to ingest
 It demonstrates **Infrastructure as Code (IaC)**, **Least-Privilege Security**, and **Serverless Analytics**.
 
 ### 🏗️ Architecture
-*(Recommended: Insert your Architecture Diagram here)*
+![AWS Data Pipeline Architecture](images/pipeline_architecture.png)
 
 **Data Flow:**
 1.  **Ingestion:** Apache Airflow (running on EC2) fetches live news data from external APIs.
@@ -48,11 +48,12 @@ It demonstrates **Infrastructure as Code (IaC)**, **Least-Privilege Security**, 
 ## 📸 Screenshots
 
 ### 1. The Dashboard (Amazon QuickSight)
-*(Place your "Crown Jewel" screenshot here)*
+![QuickSight Dashboard](images/quicksight_dashboard.png)
 *Insight: Real-time analysis of stock market news coverage by publisher.*
 
+
 ### 2. The Orchestrator (Airflow)
-*(Optional: Add a screenshot of your Green DAGs)*
+![Airflow DAGs](images/airflow_dags.png)
 *Insight: Daily scheduled jobs handling ingestion and S3 upload.*
 
 ---
